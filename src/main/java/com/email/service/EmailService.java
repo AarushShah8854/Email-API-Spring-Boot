@@ -31,7 +31,7 @@ public class EmailService {
         /*Create Session with getInstance() and pass props and
         Authenticator and override getPasswordAuthentication() method*/
         String username = "aarushshah8854";
-        String password = "hsowwsvbnabdjhzf";
+        String password = "************";
 
         Session session = Session.getInstance(props, new Authenticator() {
             @Override
